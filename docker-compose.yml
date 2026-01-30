@@ -10,7 +10,7 @@ services:
     tty: true
     restart: unless-stopped
     ports:
-      - "2095:2095"
+      - "2083:2095"
       - "2096:2096"
     networks:
       - sui_net
