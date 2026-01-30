@@ -1,8 +1,8 @@
 ---
 services:
-  s-ui:
+  s_ui:
     image: alireza7/s-ui
-    container_name: s-ui
+    container_name: s_ui
     hostname: "psdash.xtrend.site"
     volumes:
       - "./db:/app/db"
